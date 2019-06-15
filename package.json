@@ -1,0 +1,33 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "An empty Node + Typescript package ready for development",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "sweep": "rm -rf node_modules",
+    "start": "ts-node src/index.ts",
+    "build": "tsc --incremental",
+    "watch": "tsc -w --incremental",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torbensky/node-typescript-starter.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "starter"
+  ],
+  "author": "Torben",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/torbensky/node-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/torbensky/node-typescript-starter#readme",
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
