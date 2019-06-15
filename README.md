@@ -15,3 +15,7 @@ This is pretty minimal. Only `typescript` and `ts-node` development dependencies
 `npm run start`
 
 - uses `ts-node` to run the entrypoint `src/index.ts`.
+
+## Import to codesandbox.io
+
+Hey, this is cool. Just [use this link](https://codesandbox.io/s/github/torbensky/node-typescript-starter) to jump right into development codesandbox.io. What a fantastic service ❤
